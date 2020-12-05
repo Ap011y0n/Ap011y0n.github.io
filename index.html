@@ -33,6 +33,9 @@
             background-size: 100% 100%;
 
         }
+        div{
+            margin: 50 px;
+        }
 
         div.style {
             background-color: rgb(36, 36, 36);
@@ -54,7 +57,9 @@
             background-size: 100% 100%;
 
         }
-
+        .container1 {
+    padding: 0px 30px;
+}
         .center {
             margin-left: auto;
             margin-right: auto;
@@ -65,7 +70,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#"><img src="Assets/favicon.ico?"></a>
+        <a class="navbar-brand" href="#">Start</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -79,6 +84,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#Projects">Projects</a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -86,25 +94,51 @@
     <main role="main" class="container">
         <div style="background-color:rgba(31, 31, 31, 0.568);">
             <div class="text-center mt-5 pt-5">
+              
+
+
                 <h1 style="font-family: 'Montserrat', sans-serif; color:white">Portfolio</h1>
                 <br id="Introduction">
-                <h3 style="font-family: 'Montserrat', sans-serif; color:white">Introduction </h3>
+                <h3 style="font-family: 'Montserrat', sans-serif; color:white">Who am I? </h3> 
             </div>
+            
+            <div class="text-right mt-5 pt-5" >                                    
+                <img src="assets/yo.png"  width="200" style="float:right">
+                <div style = "margin-right: 220px; margin-left: 20px">
+                    <h5  style="font-family: 'Montserrat', sans-serif; color:white" >My name is Albert Garcia belerda, I was born in Terrassa, Spain.
+
+                        <br>I have always been a fan of all types of video games, but
+                        as I grew up I realized I also loved developing them.
+                        <br>
+                        I would like to work for a professional company to be a
+                        part of the ever-growing video game industry so I can be
+                        able to deliver to other people the same experiences I
+                        have been enjoying all my life.
+                        <br>
+                        <br>
+                        I have worked as a programmer or lead in some games or projects done for academic purposes or purely for fun, and I expect to keep working on similar projects so I can keep improving my code and share more amazing experiences with other people. 
+                        </h5>
+                </div>
+                
+            </div>
+
+            <br>
+            <br>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <!--<img class="d-block w-100" src="assets/Conqueror's Crown_ New Horizons - Gameplay.gif" alt="First slide">-->
-                        <video class="center" autoplay loop muted playsinline src="assets/CCNH.mp4"
+                        <video class="center" autoplay loop muted playsinline src="assets/CCNH_trim.mp4"
                             width="1110"></video>
                         <div class="carousel-caption d-none d-md-block style2"
                             style="background-color:rgba(31, 31, 31, 0.836);">
                             <h5 style="opacity: 100%; color:white">Team Leader of Conqueror's Crown: New Horizon</h5>
-                            <p class="lead" style= "color:white;">Survival RTS inspired by the great Warcraft II</p>
+                            <p class="lead" style="color:white;">Survival RTS inspired by the great Warcraft II</p>
 
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <video class="center" autoplay loop muted playsinline src="assets/FD.mp4" width="1110"></video>
+                        <video class="center" autoplay loop muted playsinline src="assets/FD_Trim.mp4" width="1110"></video>
                         <div class="carousel-caption d-none d-md-block style2"
                             style="background-color:rgba(31, 31, 31, 0.836);">
 
@@ -113,12 +147,13 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <video class="center" autoplay loop muted playsinline src="assets/SamSho.mp4"
+                        <video class="center" autoplay loop muted playsinline src="assets/SamSho_Trim.mp4"
                             width="1110"></video>
                         <div class="carousel-caption d-none d-md-block style2"
                             style="background-color:rgba(31, 31, 31, 0.836);">
-                            <h5 style ="opacity: 100%; color:white">Lead Programmer of Samurai Shodown Tribute</h5>
-                            <p class="lead" style="color:white">2D fighting game, with a special attack system integrated, emulating one stage of the fantastic Samurai Shodown (1993) from SNK</p>
+                            <h5 style="opacity: 100%; color:white">Lead Programmer of Samurai Shodown Tribute</h5>
+                            <p class="lead" style="color:white">2D fighting game, with a special attack system
+                                integrated, emulating one stage of the fantastic Samurai Shodown (1993) from SNK</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -126,7 +161,8 @@
                         <div class="carousel-caption d-none d-md-block style2"
                             style="background-color:rgba(31, 31, 31, 0.836);">
                             <h5 style="opacity: 100%; color:white">Game Systems and more</h5>
-                            <p class="lead" style="color:white">Experience in game engines, physics engines, procedural dungeons, and group movement in rts</p>
+                            <p class="lead" style="color:white">Experience in game engines, physics engines, procedural
+                                dungeons, and group movement in rts</p>
                         </div>
                     </div>
                 </div>
@@ -206,17 +242,33 @@
                 <section>
                     <a href="https://github.com/Ap011y0n/Nidhogg-Engine"><img src="assets/Nidhogg.png" width="662"
                             height="384"></a>
-                    <br>
+                    <br><br>
                     <h5 style="font-family: 'Montserrat', sans-serif; color:white">Nidhogg-Engine</h5>
                 </section>
             </div>
 
+            <div class="text-left mt-2 pt-5" id="Contact">
+                <h5 style="font-family: 'Montserrat', sans-serif; color:white">Contact me:</h5>
+                <br>
 
+                <div style="font-family: 'Montserrat', sans-serif; color:white" margin-left="100px">
+                    <a href="https://github.com/Ap011y0n" target="_blank"><img src="assets/github.png" width="100"></a><br><br>
+                    <p> GitHub: <a href="https://github.com/Ap011y0n" target="_blank"> Ap011y0n</a></p> <br>
 
-            <div class="text-left mt-2 pt-5">
-                <h5 style = "font-family: 'Montserrat', sans-serif; color:white">Contact me</h5>
+                    <a href="https://www.linkedin.com/in/albert-garcia-belerda/" target="_blank"><img src="assets/linked.png" width="100"></a><br><br>
+                    <p> LinkedIn: <a href="https://www.linkedin.com/in/albert-garcia-belerda/" target="_blank"> Albert Garcia</a></p> <br>
+
+                    <a href="mailto: albert.garcia.belerda@gmail.com"><img src="assets/gmail.png" width="100"></a><br><br>
+                    <p> Email: <a href="mailto: albert.garcia.belerda@gmail.com">albert.garcia.belerda@gmail.com</a>
+                    </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
-   
+        </div>
+
 
     </main><!-- /.container -->
 
