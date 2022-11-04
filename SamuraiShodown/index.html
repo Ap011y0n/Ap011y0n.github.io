@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="Circo, Espectaculos, Big Apple Circus">
+
+    <link rel="icon" href="Assets/favicon.ico?">
+
+    <title>Portfolio</title>
+    <!--Template based on URL below-->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Place your stylesheet here-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="funciones.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        body {
+            background-image: url('assets/backroung.jpeg');
+            background-color: rgb(255, 251, 218);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+        div{
+            margin: 50 px;
+        }
+
+        div.style {
+            background-color: rgb(36, 36, 36);
+            padding-bottom: 24px;
+        }
+
+        .card {
+            width: 130px;
+            height: 195px;
+            background: url("assets/maxresdefault.jpg") no-repeat;
+            display: inline-block;
+            background-size: 100% 100%;
+
+        }
+
+        .card:hover {
+
+            background: url("assets/pepe.gif") no-repeat;
+            background-size: 100% 100%;
+
+        }
+        .container1 {
+    padding: 0px 30px;
+}
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Start</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Introduction">Introduction</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div style="background-color:rgba(31, 31, 31, 0.568);">
+            <div class="text-center mt-5 pt-5">
+
+
+
+                <h1 style="font-family: 'Montserrat', sans-serif; color:white">Portfolio</h1>
+                <br id="Introduction">
+                <h3 style="font-family: 'Montserrat', sans-serif; color:white">Who am I? </h3>
+            </div>
+            <br>
+            <img src="assets/yo.png" width="200" class="center">
+
+            <div class="text-center mt-5 pt-5">
+                <div style="margin-right: 100px; margin-left: 100px">
+                    <h5 style="font-family: 'Montserrat', sans-serif; color:white">
+                        Hi, my name is Albert Garcia belerda, and I was born in Terrassa, Spain.
+                        <br>
+                        <br>I've been playing games and videogames all my life, and started developing interest in it's creation process at a very young age.
+                        <br>
+                        <br>At some point I took it one step further and started a university degree focused on the whole process, where I developed interests on <strong> programming</strong> and <strong>
+                            game design
+                        </strong>, and learnt other useful knowledge about user experience, modeling and animation.
+                        <br>
+                        <br>
+                        This page is a compilation of most of my projects, feel free to explore them!
+
+                    </h5>
+                </div>
+
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!--<img class="d-block w-100" src="assets/Conqueror's Crown_ New Horizons - Gameplay.gif" alt="First slide">-->
+                        <video class="center" autoplay loop muted playsinline src="assets/videogames video.mp4"
+                               width="1110"></video>
+                        <div class="carousel-caption d-none d-md-block style2"
+                             style="background-color:rgba(31, 31, 31, 0.836);">
+                            <h5 style="opacity: 100%; color:white">Videogames</h5>
+                            <p class="lead" style="color:white;">I've worked in different projects with different teams ranging from 2 to 30 members, mostly as a programmer.</p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/Design.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block style2"
+                             style="background-color:rgba(31, 31, 31, 0.836);">
+
+                            <h5 style="opacity: 100%; color:white">Game and level design </h5>
+                            <p class="lead" style="color:white"> I've analysed and also created some levels of my own, so I could improve my knowledge about frameworks like the ccst, the flow of a multiplayer combat map, the player guidance, etc. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/Tools.png" alt="Third slide">
+
+                        <div class="carousel-caption d-none d-md-block style2"
+                             style="background-color:rgba(31, 31, 31, 0.836);">
+                            <h5 style="opacity: 100%; color:white">Engines and tools</h5>
+                            <p class="lead" style="color:white">
+                                During this time, I learned to use a lot of engines such as Unity and Unreal 4, and also some useful softwares and tool like blender, maya, Wwise and many more. I also developed some engines and tools of my own, such as a physics engine, procedural generators, AI and data analysis tools.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="center" autoplay loop muted playsinline src="assets/research.mp4"
+                               width="1110"></video>
+                        <div class="carousel-caption d-none d-md-block style2" style="background-color:rgba(31, 31, 31, 0.836);">
+                            <h5 style="opacity: 100%; color:white">Research projects</h5>
+                            <p class="lead" style="color:white">
+                                I also did some research projects with academic purposes, mainly on procedural narrative, where I realized an extensive investigation on the matter, but I also worked on group movement patterns, and AI agents.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="container" style="background-color:rgba(31, 31, 31, 0.568);">
+            <div class="text-left mt-5 pt-5">
+                <br id="Projects">
+
+                <h3 style="font-family: 'Montserrat', sans-serif; color:white">Projects</h3>
+                <br>
+                <h5 style="font-family: 'Montserrat', sans-serif; color:white">Games:</h5>
+                <br>
+
+                <div class="container text-center">
+                    <div class="row">
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white" width="320">
+                            <a href="https://bleachkrieg.github.io/Conquerors-Crown-New-Horizon">
+                                <div class="image" style="        background-image: url(assets/ConquerorsCrown_NewHorizon.png)">
+                                    <p style=" font-size: 18px">RTS videogame, inspired by Warcraft II, created using sdl</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Conquerors Crown-New-Horizon</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white" width="320">
+                            <a href="https://ap011y0n.github.io/2d-Platformer/">
+                                <div class="image" style="        background-image: url(assets/Forest-Dash.png)">
+                                    <p style=" font-size: 18px">Platformer created with SDL, where you die if you stop moving</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Forest Dash</p>
+
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white" width="320">
+                            <a href="https://github.com/Ap011y0n/Pinball-Dreams_Box2D">
+                                <div class="image" style="        background-image: url(assets/Pinball_Dreams.png)">
+                                    <p style="font-size: 18px"> 2d physics-based pinball game, inspired by Pinball Dreams from Amiga, created using Box2D and SDL </p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Pinball Dreams</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/marcpt98/Unemployed-truck-driver-simulator">
+                                <div class="image" style="        background-image: url(assets/unemployed_truck_driver_sim.png)">
+                                    <p style=" font-size: 18px"><br>3D physics-based driving game, created using SDL, OpenGL, and bullet3D. The truck is created using constraints, and there are multiple cameras</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Unemployed truck driver simulator</p>
+
+                        </div>
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://ap011y0n.github.io/Samurai-Shodown-Neo-Geo/">
+                                <div class="image" style="        background-image: url(assets/SamSho.png)">
+                                    <p style=" font-size: 18px"><br>Tribute to the classic 2d Fighting game. 1 stage and 1 character is available, with it's entire moveset and combos. Created with SDL</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Samurai Shodown Neo-Geo Tribute</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire/">
+                                <div class="image" style="        background-image: url(assets/game_rancor.webp)">
+                                    <p style=" font-size: 18px">Isometric Rogue like, created by a team of over 30 programmers, artists and designers, with our own engine built on OpenGL. </p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>The Mandalorian: Ashes of the Empire</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/UnityProjects/releases/tag/1.2">
+                                <div class="image" style="        background-image: url(assets/TowerDefense.png)">
+                                    <p style=" font-size: 18px">Augmented Reality game for android using vuforia and unity, where with different target cards, you have to prepare your deffences against 6 enemy waves</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>AR tower Defense</p>
+
+                        </div>
+
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/Even-odds-Colonists-Arena">
+                                <div class="image" style="        background-image: url(assets/EvenOdds.png)">
+                                    <p style=" font-size: 18px">Peer to peer online Shooter created with Unity and Photon Unity Networking. Inspired by arcade shooters like Halo, Doom and Unreal Tournament</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Even Odds: Colonists Arena</p>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <h5 style="font-family: 'Montserrat', sans-serif; color:white">Researches, tools and other applications:</h5>
+                <br>
+                <div class="container text-center" id="HoverElements2">
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/Procedural-Dungeon-Generation">
+                                <div class="image" style="        background-image: url(assets/DunGen.png)">
+                                    <p style=" font-size: 18px">Dungeon algorithm, which uses a sistem of rooms and corridors. Created on c++ and ported to unity, where it can use it's prefabs to build the map</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Procedural Dungeon Generation</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://ap011y0n.github.io/Group-Movement/">
+                                <div class="image" style="        background-image: url(assets/flocking.png)">
+                                    <p style=" font-size: 18px">Research about group movement in RTS, which involves flocking and more theories.</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Group movement patterns in RTS</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Wild-Cats-CITM/Physics-engine">
+                                <div class="image" style="        background-image: url(assets/physics.png)">
+                                    <p style=" font-size: 18px">Homebrew 2D euler physics engine, and an autoaim which uses montecarlo simulations </p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Physics engine + autoaim</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://ap011y0n.github.io/Nidhogg-Engine/">
+                                <div class="image" style="        background-image: url(assets/Nidhogg.png)">
+                                    <p style=" font-size: 18px">Game engine created by 2 people using OpenGl, ImGui, SDL and Bullet3D. It's focus is in resource management and physics simulation.</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Nidhogg Engine</p>
+
+                        </div>
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/UnityProjects/releases/tag/1.0">
+                                <div class="image" style="        background-image: url(assets/CardsoftheWild.png)">
+                                    <p style=" font-size: 18px">Machine learning project, with a neural network trained with tensorflow to recognise images, and a Qtable which trains an AI to pick the best cards to win in every matchup. </p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Cards of the Wild</p>
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/UnityProjects/releases/tag/1.4">
+                                <div class="image" style="        background-image: url(assets/tanks.png)">
+                                    <p style=" font-size: 18px">Deathmatch between two AI, each with a health and ammo system, decision making and different movement patterns such as chasing and roaming.</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Tanks Deathmatch</p>
+
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/TFG-prototype/releases/tag/v1.0">
+                                <div class="image" style="        background-image: url(assets/TFG.png)">
+                                    <p style=" font-size: 18px">Research on procedural narratives and a prototype that validates some theories and allows to test it's boundaries</p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Procedural Narrative Research</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/MarcRosellH/Advanced_Graphics_Programming/releases/tag/1.0">
+                                <div class="image" style="        background-image: url(assets/AGP3.png)">
+                                    <p style=" font-size: 18px"> Implementation of a water shader and an environment lightning using a skybox. It uses opengl and glsl. </p>
+
+                                </div>
+                            </a>
+                            <br>
+                            <p>Water effect and environment mapping</p>
+
+                        </div>
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/UnityProjects/releases/tag/1.3">
+                                <div class="image" style="        background-image: url(assets/heatmaps.png)">
+                                    <p style=" font-size: 18px">Unity in-engine tool, that allows to track events and then print customizable heatmaps. It uses it's own unity window.</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Heatmaps</p>
+                        </div>
+
+                    </div>
+                  
+
+                </div>
+                <br>
+                <h5 style="font-family: 'Montserrat', sans-serif; color:white">Level Design:</h5>
+                <br>
+                <div class="container text-center" id="HoverElements2">
+                    <div class="row">
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://github.com/Ap011y0n/CombatMap_LevelDesign">
+                                <div class="image" style="        background-image: url(assets/CombatMap.png)">
+                                    <p style=" font-size: 18px">A combat map made on unreal engine, taking into account the flow of the map, how to avoid camping, and how to make it fair for both teams</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Jotunheim</p>
+
+                        </div>
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="https://docs.google.com/presentation/d/19M3nKnPMAvQHNWW3hSK6NZelz3ddg3F7wUaknJTEXf8/edit?usp=sharing">
+                                <div class="image" style="        background-image: url(assets/lothric.png)">
+                                    <p style=" font-size: 18px">Analysis of the level High Wall of Lothric from dark souls 3. A CCST from both critical and golden path, what it does well, where it fails, it's player guidance, etc.  </p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Analysis of High Wall of Lothric</p>
+
+                        </div>
+
+                        <div class="col-md-4" style="font-family: 'Montserrat', sans-serif; color:white">
+                            <a href="">
+                                <div class="image" style="        background-image: url(assets/witcher.png)">
+                                    <p style=" font-size: 18px">The Witcher 3 inspired environment, with different zones, from urban to wildlands</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Open world environment</p>
+
+                        </div>
+
+                    </div>
+                    <br>
+                    <br>
+
+                    <h3 style="font-family: 'Montserrat', sans-serif; color:white">Current Projects:</h3>
+                    <br>
+                    <div class="col-md-offset-3" style="font-family: 'Montserrat', sans-serif; color:white">
+                        <center>
+                            <a href="">
+                                <div class="image" style="background-image: url(assets/neoterra.png); width: 662px; height: 384px">
+                                    <p>An alternative history mod set in the future for the videogame Hearts of iron IV from Paradox Interactive</p>
+                                </div>
+                            </a>
+                            <br>
+                            <p>Neoterra, a Hearts of Iron 4 mod</p>
+                        </center>
+
+                        <br>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+
+
+            
+        </div>
+
+
+
+
+
+
+       
+
+
+
+
+
+        <div class="text-left mt-2 pt-5" id="Contact">
+            <h5 style="font-family: 'Montserrat', sans-serif; color:white">Contact me:</h5>
+            <br>
+
+            <div style="font-family: 'Montserrat', sans-serif; color:white" margin-left="100px">
+                <a href="https://github.com/Ap011y0n" target="_blank"><img src="assets/github.png" width="100"></a><br><br>
+                <p> GitHub: <a href="https://github.com/Ap011y0n" target="_blank"> Ap011y0n</a></p> <br>
+
+                <a href="https://www.linkedin.com/in/albert-garcia-belerda/" target="_blank"><img src="assets/linked.png" width="100"></a><br><br>
+                <p> LinkedIn: <a href="https://www.linkedin.com/in/albert-garcia-belerda/" target="_blank"> Albert Garcia</a></p> <br>
+
+                <a href="mailto: albert.garcia.belerda@gmail.com"><img src="assets/gmail.png" width="100"></a><br><br>
+                <p>
+                    Email: <a href="mailto: albert.garcia.belerda@gmail.com">albert.garcia.belerda@gmail.com</a>
+                </p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        </div>
+
+
+    </main><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
